@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Lost Ark Queue App 0</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="NAWButton">NA West</string>
+    <string name="NAEButton">NA East</string>
+    <string name="akkanButton">Akkan</string>
+    <string name="akkanSubmit">Submit</string>
+    <string name="queueNumAkkan">Enter a value</string>
+    <string name="queueNumBergstrom">Enter a value</string>
+    <string name="bergstromSubmit">Submit</string>
+</resources>

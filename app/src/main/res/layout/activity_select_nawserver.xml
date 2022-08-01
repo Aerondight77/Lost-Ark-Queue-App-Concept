@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectNAWServerActivity">
+
+    <TextView
+        android:id="@+id/selectNAWServer"
+        android:layout_width="279dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:text="Please Select NAW Server"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/enviskaButton"
+        android:layout_width="165dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="40dp"
+        android:text="Enviska"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bergstromButton" />
+
+    <Button
+        android:id="@+id/mariButton"
+        android:layout_width="165dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="40dp"
+        android:text="Mari"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enviskaButton" />
+
+    <Button
+        android:id="@+id/rohendelButton"
+        android:layout_width="165dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="40dp"
+        android:text="Rohendel"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mariButton" />
+
+    <Button
+        android:id="@+id/akkanButton"
+        android:layout_width="165dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="52dp"
+        android:onClick="goToAkkan"
+        android:text="@string/akkanButton"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selectNAWServer" />
+
+    <Button
+        android:id="@+id/bergstromButton"
+        android:layout_width="165dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="40dp"
+        android:onClick="goToBergstrom"
+        android:text="Bergstrom"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/akkanButton" />
+
+    <Button
+        android:id="@+id/shandiButton"
+        android:layout_width="165dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="40dp"
+        android:text="Shandi"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rohendelButton" />
+
+    <Button
+        android:id="@+id/valtanButton"
+        android:layout_width="165dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="40dp"
+        android:text="Valtan"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shandiButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
